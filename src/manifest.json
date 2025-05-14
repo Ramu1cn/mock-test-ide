@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "MockTest IDE",
+    "version": "0.0.0.7",
+    "author": "Ramu cn",
+    "homepage_url": "https://github.com/Ramu1cn",
+    "description": "https://github.com/Ramu1cn",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "sandbox": {
+        "pages": ["devtools/sandbox/sandbox.html"]
+    },
+    "permissions": [
+        "debugger",
+        "storage"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "devtools_page": "devtools/devtools.html",
+    "icons": {
+        "16": "pptr.png",
+        "32": "pptr.png",
+        "48": "pptr.png",
+        "128": "pptr.png",
+        "256": "pptr.png"
+    }
+}
